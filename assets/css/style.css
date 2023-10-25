@@ -1,0 +1,105 @@
+/* @import url("google-fonts.css");
+@import url("fontello-fonts.css"); 
+@import url("root-font-size-media.css");
+@import url("container-max-width-media.css");
+@import url("section-our-focus-media.css");
+@import url("section-capabilities-media.css");
+@import url("section-cta-media.css");
+
+
+
+
+*/
+
+
+
+@import url("constants.css");
+@import url("base.css");
+@import url("footer.css");
+@import url("animations.css");
+
+
+
+
+
+/* 
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  section {
+    padding: 1rem;
+  }
+  
+  #call-to-action {
+    background-color: #ccc;
+    padding: 2rem;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+  } */
+
+header {
+    
+    background: linear-gradient(to right, var(--intro-background-color), var(--intro-background-color-right-grad));
+
+    background-color: var(--intro-background-color);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+
+    color: var(--color-for-white-fonts);
+
+    font-size: 1.4rem;
+}  
+header img .top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  clip-path: polygon(100% 0, 100% 100%, calc(100% - 50px) 100%, calc(100% - 50px) 50px, 50px 50px, 50px 0);
+}
+.container {
+    margin: auto;
+    padding: var(--container-padding);
+    h2 {
+      padding-bottom: 1rem;
+    }
+}
+
+.overview {
+  background: var(--overview-background-color);
+  color: var(--font-color);
+  p {
+    font-size: 1.5rem;
+    font-weight: 300;;
+  }  
+}
+
+nav .container{
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    height: var(--header-height);
+}
+
+nav .logo {
+    height: 100%;
+    width: auto;
+}
+
+.list-item {
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: var(--font-color);
+    font-size: 1.2rem;
+    font-weight: 300;
+}

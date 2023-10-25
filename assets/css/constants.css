@@ -1,0 +1,33 @@
+:root {
+    --color-for-white-fonts: #F5F5FB;
+    /* --color-light-green: #5BAF5C; */
+    /* Using this color to achieve contrast accessibility targets */
+    --color-light-green: #0EDDA9;
+    /* Original backdrop introduced */
+    /* --background-color: #32398D; */
+    /* Using this color to match the one in the logo */
+    /* --background-color: #324598; */
+    /* Using this color to match the one in the logo in a darker flavour */
+    --background-color: #2F408E;
+
+    /* --intro-background-color: var(--background-color); */
+    /* --intro-background-color: #6F9CDF; */
+    --intro-background-color: #5db4ea;
+    /* --intro-background-color-right-grad: #83a8df; */
+    --intro-background-color-right-grad: #6f9cdf;
+
+    --font-color: black;
+    --header-height: 2rem;
+
+    --animation-period: 20s;
+    --num-supported-fragments: 4;
+    --animation-per-fragment: calc(var(--animation-period) / var(--num-supported-fragments));
+    --subheader-line-height: 2em;
+
+    --container-padding: 2rem;
+
+    --header-2-bottom-spacing: 1.6em;
+
+
+    --overview-background-color: #F5F5FB;
+}
