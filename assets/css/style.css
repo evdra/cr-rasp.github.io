@@ -53,5 +53,17 @@ b {
   }
   header .container {
     padding-top: 0rem;
+    padding-bottom: 0rem;
+    height: 90vh;
+    margin-bottom: 0.3rem;
   };
+  header .banner {
+    width: 85vw;
+  }
+  header .header-image-container {
+    height: 30%;
+    .header-image {
+      bottom: 0rem;
+    }
+  }
 }
