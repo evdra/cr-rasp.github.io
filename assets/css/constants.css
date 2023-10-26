@@ -1,4 +1,6 @@
 :root {
+    background-color: white;
+    font-size: 100%;
     --color-for-white-fonts: #F5F5FB;
     /* --color-light-green: #5BAF5C; */
     /* Using this color to achieve contrast accessibility targets */
@@ -12,9 +14,9 @@
 
     /* --intro-background-color: var(--background-color); */
     /* --intro-background-color: #6F9CDF; */
-    --intro-background-color: #5db4ea;
+
     /* --intro-background-color-right-grad: #83a8df; */
-    --intro-background-color-right-grad: #6f9cdf;
+
 
     --font-color: black;
     --header-height: 2rem;
@@ -30,4 +32,10 @@
 
 
     --overview-background-color: #F5F5FB;
+
+    --banner-font-size: 1.5rem;
+    --banner-cta-color: #4CAF50;
+
+    --intro-background-color: #5db4ea;
+    --intro-background-color-right-grad: #6f9cdf;
 }

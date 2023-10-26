@@ -1,0 +1,23 @@
+section.contact-us {
+    background: var(--color-for-white-fonts);
+    padding: var(--container-padding);
+}
+
+section.contact-us .container {
+    color: var(--color-for-white-fonts);
+    background: linear-gradient(to right, var(--intro-background-color), var(--intro-background-color-right-grad));
+
+}
+
+section.contact-us h2 {
+    margin-bottom: 0.5em;
+}
+section.contact-us h3 {
+    margin-bottom: 0.5em;
+}
+
+section.contact-us .email-address {
+    /* color: var(--banner-cta-color); */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
