@@ -21,11 +21,6 @@
     --font-color: black;
     --header-height: 2rem;
 
-    --animation-period: 17s;
-    --num-supported-fragments: 4;
-    --animation-per-fragment: calc(var(--animation-period) / var(--num-supported-fragments));
-    --subheader-line-height: 2em;
-
     --container-padding: 2rem;
 
     --header-2-bottom-spacing: 1.6em;
@@ -38,4 +33,40 @@
 
     --intro-background-color: #5db4ea;
     --intro-background-color-right-grad: #6f9cdf;
+
+
+    --animation-period: 25s;
+    --animation-steps: 50;
+    --animation-step-period: calc(var(--animation-period) / var(--animation-steps));
+    --num-supported-fragments: 5;
+    --animation-per-fragment: calc(var(--animation-period) / var(--num-supported-fragments));
+    --subheader-line-height: 2em;
+    
+    
+    /* Each fragment is animated using a different animation, with a different start time.
+       Each fragment takes the X% = (animation-per-fragment/ animation-period) of the animation period.
+       This means that at the X% of the animation period, the fragment will be fully animated.
+       This also means that at X/2% of the animation period, the fragment will be at the peak of its animation.
+       THis is how we set the keyframes.
+
+       The start delay is calul
+
+
+    The start time is calculated as the animation per fragment period plus the (fragment id-1)
+ */
+
+    --animation-start-time-frag1: 0s;
+    --animation-start-time-frag2: calc( 1 * var(--animation-per-fragment));
+    --animation-start-time-frag3: calc( 2 * var(--animation-per-fragment));
+    --animation-start-time-frag4: calc( 3 * var(--animation-per-fragment));
+    --animation-start-time-frag5: calc( 4 * var(--animation-per-fragment));
+
+
+/* 
+
+
+    --animation-start-time-frag2: calc(var(--animation-period) - 4 * var(--animation-per-fragment));
+    --animation-start-time-frag3: calc(var(--animation-period) - 3 * var(--animation-per-fragment));
+    --animation-start-time-frag4: calc(var(--animation-period) - 2 * var(--animation-per-fragment));
+    --animation-start-time-frag5: calc(var(--animation-period) - 1 * var(--animation-per-fragment)); */
 }
