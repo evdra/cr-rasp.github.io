@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+<loc>https://crrasp.eu/#home</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#biological-profile</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#synthesis</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#intellectual-property</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#scientific-evidence</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#research-publications</loc>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://crrasp.eu/#inventors</loc>
+<priority>1.0</priority>
+</url>
+</urlset>
